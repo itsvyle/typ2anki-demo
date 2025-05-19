@@ -1,0 +1,318 @@
+<!--
+Took the default typst theme from https://github.com/typst/typst/blob/c21c1c391b48f843c8671993a28eaf1fe0d40b89/crates/typst-library/src/text/raw.rs#L880
+
+Converted it to a tmTheme file
+
+Added custom highlighting
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>name</key>
+		<string>Typst Light</string>
+		<key>author</key>
+		<string>The Typst Project Developers</string>
+		<key>settings</key>
+		<array>
+			<dict>
+				<key>settings</key>
+				<dict>
+					<key>background</key>
+					<string>#FFFFFF</string>
+					<key>foreground</key>
+					<string>#000000</string>
+					<key>caret</key>
+					<string>#000000</string>
+					<key>lineHighlight</key>
+					<string>#F0F0F0</string>
+					<key>selection</key>
+					<string>#B4D8FD</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Comment</string>
+				<key>scope</key>
+				<string>comment</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#8a8a8a</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Escape character</string>
+				<key>scope</key>
+				<string>constant.character.escape</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#1d6c76</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Bold markup</string>
+				<key>scope</key>
+				<string>markup.bold</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>bold</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Italic markup</string>
+				<key>scope</key>
+				<string>markup.italic</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>italic</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Underline markup</string>
+				<key>scope</key>
+				<string>markup.underline</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>underline</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Raw markup</string>
+				<key>scope</key>
+				<string>markup.raw</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#818181</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Math string</string>
+				<key>scope</key>
+				<string>string.other.math.typst</string>
+				<key>settings</key>
+				<dict></dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Math definition</string>
+				<key>scope</key>
+				<string>punctuation.definition.math</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#298e0d</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Math operators</string>
+				<key>scope</key>
+				<string>keyword.operator.math</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#1d6c76</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Headings</string>
+				<key>scope</key>
+				<string>markup.heading, entity.name.section</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>bold</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Typst headings</string>
+				<key>scope</key>
+				<string>markup.heading.typst</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>bold underline</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>List punctuation</string>
+				<key>scope</key>
+				<string>punctuation.definition.list</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#8b41b1</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>List term</string>
+				<key>scope</key>
+				<string>markup.list.term</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>bold</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Label and references</string>
+				<key>scope</key>
+				<string>entity.name.label, markup.other.reference</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#1d6c76</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Keywords</string>
+				<key>scope</key>
+				<string>keyword, constant.language, variable.language</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#d73a49</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Storage</string>
+				<key>scope</key>
+				<string>storage.type, storage.modifier</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#d73a49</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Constants</string>
+				<key>scope</key>
+				<string>constant</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#b60157</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Strings</string>
+				<key>scope</key>
+				<string>string</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#298e0d</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Functions and support</string>
+				<key>scope</key>
+				<string>entity.name, variable.function, support</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#4b69c6</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Support macros</string>
+				<key>scope</key>
+				<string>support.macro</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#16718d</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Annotations</string>
+				<key>scope</key>
+				<string>meta.annotation</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#301414</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Interpolation</string>
+				<key>scope</key>
+				<string>entity.other, meta.interpolation</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#8b41b1</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Diff range</string>
+				<key>scope</key>
+				<string>meta.diff.range</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#8b41b1</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Diff inserted</string>
+				<key>scope</key>
+				<string>markup.inserted, meta.diff.header.to-file</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#298e0d</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Diff deleted</string>
+				<key>scope</key>
+				<string>markup.deleted, meta.diff.header.from-file</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#d73a49</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>OCaml Module Name</string>
+				<key>scope</key>
+				<string>meta.module-reference.ocaml</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#4a8845</string>
+				</dict>
+			</dict>
+		</array>
+	</dict>
+</plist>

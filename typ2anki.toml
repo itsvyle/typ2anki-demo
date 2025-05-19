@@ -1,0 +1,4 @@
+max_card_width = "330pt"
+check_duplicates = true
+generation_concurrency = 10
+exclude_files = ["assets/*"]
