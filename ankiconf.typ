@@ -1,5 +1,4 @@
-//#import "@preview/typ2anki:0.1.0": *
-#import "/assets/typ2anki.typ": *
+#import "@preview/typ2anki:0.1.0": *
 #import "/assets/ankiconf-symbols.typ": *
 #import "/assets/ankiconf-memo.typ": *
 #import "/assets/ankiconf-cetz.typ": *
